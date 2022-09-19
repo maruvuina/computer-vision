@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab4: Алгоритм отсечения Сазерленда-Коэна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="module-cs-algo">
+        <h1>Алгоритм отсечения Сазерленда-Коэна</h1>
+        <h4>Размер окна для рисования: 300 на 600 пикселей</h4><canvas id="canvas" height="300" width="600"></canvas>
+        <form id="form-config">
+            <h5>Координаты оболасти вывода</h5>
+            <p><label>x1<input id="x1-rect" type="number" placeholder="150"/></label><label>y1<input id="y1-rect" type="number" placeholder="100"/></label></p>
+            <p><label>x2<input id="x2-rect" type="number" placeholder="90"/></label><label>y2<input id="y2-rect" type="number" placeholder="200"/></label></p>
+            <h5>Координаты линии</h5>
+            <p><label>x1<input id="x1-line" type="number" placeholder="450"/></label><label>y1<input id="y1-line" type="number" placeholder="50"/></label></p>
+            <p><label>x2<input id="x2-line" type="number" placeholder="200"/></label><label>y2<input id="y2-line" type="number" placeholder="250"/></label></p><input id="btn-draw" type="button" value="Рисовать"/>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
